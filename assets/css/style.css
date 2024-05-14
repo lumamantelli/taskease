@@ -35,7 +35,7 @@ body {
   background-color: var(--roxo);
   font-family: "Sugo Display", sans-serif;
   padding: 1rem;
-  min-width: 400px;
+  min-width: 320px;
   min-height: 300px;
 }
 
@@ -160,4 +160,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.7rem;
 }
+
+
 /*# sourceMappingURL=style.css.map */
