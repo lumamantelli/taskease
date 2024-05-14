@@ -153,12 +153,13 @@ body {
 }
 
 .copy{
-  width: 10px;
+  width: 8px;
+  margin-right: 2px;
 }
 
 .text_rodape{
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
 }
 
 
