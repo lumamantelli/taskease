@@ -1,0 +1,163 @@
+:root {
+  --roxo: #C703FF;
+  --roxo-secundario: #dc6dfb;
+  --verde: #7ED957;
+  --branco: #FFFFFF;
+}
+
+@font-face{
+  font-family: 'Sugo Display';
+  src: url(../fonts/Sugo-Pro-Display-Regular-trial.ttf);
+}
+
+
+body {
+  margin: 0;
+  
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.todo-list {
+  border-radius: 8px;
+  background-color: var(--roxo);
+  font-family: "Sugo Display", sans-serif;
+  padding: 1rem;
+  min-width: 400px;
+  min-height: 300px;
+}
+
+
+.logo{
+  width: 150px;
+  margin: 5px;
+}
+
+.div_logo{
+  border-bottom: 2px solid var(--branco);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form-input,
+.form-button {
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-input {
+  outline: none;
+  background-color: #ffff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-button {
+  border: 1px;
+  background: var(--roxo-secundario);
+  color: var(--branco);
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.form-button:hover {
+  color: var(--verde);
+  background: var(--branco);
+  transition: 200ms ease-in-out;
+}
+
+
+.list {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.task {
+  background-color: rgba(255, 255, 255, 0.138);
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1.5px solid var(--verde);
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 1rem 3rem;
+}
+
+.check-button, .delete-button {
+  background-color: var(--branco);
+  color: var(--roxo);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.check-button:hover, .delete-button:hover{
+  scale: 1.1;
+  transition: 200ms ease-in-out;
+}
+
+.task.done .check-button {
+  background-color: var(--verde);
+  color: var(--branco);
+}
+
+.check-icon {
+  display: block;
+  padding: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.task.done .check-icon {
+  background-color: var(--verde);
+}
+
+.content {
+  margin: 0;
+}
+
+.task.done .content {
+  text-decoration: line-through;
+}
+
+
+.rodape{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.copy{
+  width: 10px;
+}
+
+.text_rodape{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+}
+/*# sourceMappingURL=style.css.map */
