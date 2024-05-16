@@ -32,11 +32,17 @@ app, por favor:
 
 1. Faça um fork do repositório.
 2. Crie uma branch para sua feature
+   
    `git checkout -b feature/MinhaFeature`
-4. Faça seus commits (
+   
+4. Faça seus commits
+   
    `git commit -m 'Adicionando uma nova feature'`
-6. Faça push para a branch (
+   
+6. Faça push para a branch
+   
    `git push origin feature/MinhaFeature`
-8. Abra um Pull Request.
+  
+9. Abra um Pull Request.
 
 Agradecemos o seu interesse em contribuir!
