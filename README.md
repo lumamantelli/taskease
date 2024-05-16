@@ -7,9 +7,9 @@ enquanto), assim que a página é atualizada, a ferramenta apaga tudo que foi co
 dentro da lista.
 
 *Linguagens utilizadas:*
-  -Javascript
-  -HTML5(marcação)
-  -CSS(estilo)
+  - Javascript
+  - HTML5(marcação)
+  - CSS(estilo)
 
 Para rodar o projeto localmente, siga os passos:
 
