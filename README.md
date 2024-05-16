@@ -23,7 +23,7 @@ projeto no eu navegador.
 seu navegador.
 
 
-#### Como contribuir
+### Como contribuir
 
 Contribuições são muito bem-vindas! Se você tem interesse em ajudar a melhorar o
 app, por favor:
