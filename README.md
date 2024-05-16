@@ -14,12 +14,14 @@ dentro da lista.
 Para rodar o projeto localmente, siga os passos:
 
 1. Faça o download do projeto ou clone o repositório:
-   > git clone https://github.com/lumamantelli/taskease
-2. Abra a pasta do projeto no seu editor (usei o VSCode);
-3. Se estiver usando o VSCode, instale a extensão “Live Server”;
-4. No rodapé irá aparecer um botão escrito “Go live”, ao clicar ele irá abrir o
+   
+   > git clone `https://github.com/lumamantelli/taskease`
+  
+3. Abra a pasta do projeto no seu editor (usei o VSCode);
+4. Se estiver usando o VSCode, instale a extensão “Live Server”;
+5. No rodapé irá aparecer um botão escrito “Go live”, ao clicar ele irá abrir o
 projeto no eu navegador.
-5. Se não estiver usando o VSCode como editor, abra o arquivo index.html no
+6. Se não estiver usando o VSCode como editor, abra o arquivo index.html no
 seu navegador.
 
 
